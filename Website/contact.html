@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookEase - Contact Us</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+    /* Loading Screen Style */
+    #loading-screen {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg,#0625d4cf, #04276d98,#2d556995, #2575fc);
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Loading Spinner */
+    .spinner-border {
+        width: 4rem;
+        height: 4rem;
+        color: white;
+    }
+
+    /* Page Transition */
+    .fade-in {
+        opacity: 0;
+        transition: opacity 1.5s ease-in-out;
+    }
+
+    .fade-in.visible {
+        opacity: 1;
+    }
+
+    /* Header Styles */
+    header h1 {
+        font-size: 3rem;
+        background: linear-gradient(90deg, #6a11cb, #2575fc); /* Gradient Text */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    header p {
+        font-size: 1.5rem;
+        color: #f8f9fa; /* Light color for the subtitle */
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    header {
+        padding: 30px 0;
+        background: linear-gradient(180deg, #2575fc,#303b5068, #fff)
+    }
+
+    /* Additional styling for main content */
+    main .section-title {
+        font-size: 2rem;
+        color: #6a11cb;
+        margin-bottom: 20px;
+    }
+
+    main .lead {
+        font-size: 1.25rem;
+        color: #555;
+    }
+
+    .btn-learn-more {
+        background-color: #6200ea;
+        color: #fff;
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    /* Footer Styling */
+    footer {
+        background-color: #343a40;
+        color: white;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    footer a {
+        color: #6a11cb;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">BookEase</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="form.html">Booking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-gradient-primary text-white text-center py-5"></header>
+        <h1>Contact Us</h1>
+        <p>We are here to assist you with your bookings</p>
+    </header>
+    
+    <main class="container my-5">
+        <h2 class="text-center">Our Contact Information</h2>
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Department</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Customer Support</td>
+                    <td>support@bookease.com</td>
+                </tr>
+                <tr>
+                    <td>Sales</td>
+                    <td>sales@bookease.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
