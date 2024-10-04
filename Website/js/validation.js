@@ -6,3 +6,11 @@ function validateZipCode() {
     }
     return true;
 }
+
+function NotKnownYet() {
+    if (!/^\d{5}$/.test(zip)) {
+        alert("Value Must be Only 5 Numeric Values");
+        return false;
+    }
+    return true;
+}
